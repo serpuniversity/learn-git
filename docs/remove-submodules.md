@@ -6,7 +6,7 @@
         <strong>Deinitialize the Submodule:</strong>
         <p>This will remove the working directory of the submodule, but keep the Git directory and the .gitmodules entry.</p>
         <pre><code>git submodule deinit &lt;path_to_submodule&gt;</code></pre>
-        <strong>Optional Step: If there were local changes or untracked files:</strong>
+        <strong>If there were local changes or untracked files:</strong>
         <p>Use the '-f' flag with 'git rm' to forcibly remove the submodule. This will discard local changes and untracked files in the submodule.</p>
         <pre><code>git rm -f &lt;path_to_submodule&gt;</code></pre>
     </li>
