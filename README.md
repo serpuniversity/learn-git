@@ -1,7 +1,5 @@
 # README
 
--   ## Git
-
 -   Introduction to Git (and version control)
 -   what does it do / why use it
 -   how does it work
